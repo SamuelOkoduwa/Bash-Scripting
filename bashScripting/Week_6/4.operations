@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Input
+read -p "Enter the first Number:  " firstNumber
+read -p "Enter the second Number: " secondNumber
+
+#variable describing operations
+sum=$((firstNumber + secondNumber))
+multiply=$((firstNumber * secondNumber))
+remainder=$((firstNumber % secondNumber))
+
+echo "The sum of the numbers is $sum, multiplication gives $multiply and the remainder is $remainder "
+
